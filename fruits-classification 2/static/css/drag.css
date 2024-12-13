@@ -1,0 +1,67 @@
+#drop-area {
+  width: 90%;
+  border: 2px dashed #555555; /* Adjusted border for dark mode */
+  border-radius: 20px;
+  margin: 20px auto;
+  padding: 50px 20px;
+  color: #cccccc; /* Softer text color */
+  background-color: #1e1e1e; /* Dark background */
+}
+
+#drop-area.highlight {
+  border: 3px dashed #888888; /* Highlight state */
+}
+
+#drop-area p {
+  margin-top: 0;
+  font-size: 1rem;
+  color: #bbbbbb; /* Slightly lighter text */
+}
+
+.my-form {
+  margin-bottom: 10px;
+}
+
+#gallery {
+  margin-top: 15px;
+}
+
+#gallery img {
+  width: 40%;
+  height: auto;
+  box-shadow: 0 0 15px rgba(255, 255, 255, 0.2); /* Softer shadow */
+}
+
+.button {
+  display: inline-block;
+  padding: 10px;
+  cursor: pointer;
+  border: 1px solid #444444; /* Subtle border */
+  font-size: 1rem;
+  background-color: #1e1e1e; /* Dark button background */
+  color: #ffffff; /* White text */
+}
+
+.button:hover {
+  background: #333333; /* Slightly lighter on hover */
+}
+
+#fileElem {
+  display: none;
+}
+
+#classify-btn {
+  display: none;
+  margin: auto;
+  margin-top: 15px;
+  font-size: 1rem;
+  background-color: #6200ea; /* Primary button color */
+  color: #ffffff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+}
+
+#classify-btn:hover {
+  background-color: #3700b3; /* Darker hover color */
+}

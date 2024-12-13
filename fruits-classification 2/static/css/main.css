@@ -1,0 +1,111 @@
+* {
+  box-sizing: border-box;
+  font-family: "Roboto", "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+body {
+  margin: 0;
+  padding: 0;
+  font-size: 20px;
+  min-width: 400px;
+  background-color: #121212; /* Dark background */
+  color: #ffffff; /* Light text */
+}
+
+#video {
+  border: 2px dashed #555555; /* Softer border for dark mode */
+  width: 90%;
+  height: auto;
+  display: block;
+  margin: 20px auto;
+  background-color: rgba(50, 50, 50, 0.85); /* Subtle background */
+}
+
+#canvas {
+  display: none;
+}
+
+#controls {
+  position: absolute;
+  text-align: center;
+  width: 40%;
+  margin: 100px 30%;
+  padding: 20px 2.5%;
+  background-color: rgba(0, 0, 0, 0.7); /* Darker overlay */
+  box-shadow: 0 0 30px rgba(255, 255, 255, 0.2); /* Softer glow */
+}
+
+select, button {
+  background-color: #1e1e1e; /* Dark button background */
+  border: 1px solid #444444; /* Subtle border */
+  padding: 10px;
+  color: #ffffff; /* White text */
+}
+
+select, option {
+  font-size: 1rem;
+  width: 90%;
+}
+
+select:focus, button:hover {
+  background-color: #333333; /* Slightly lighter hover state */
+}
+
+#webcam {
+  display: none;
+}
+
+#webcam p, #result p {
+  width: 90%;
+  margin-left: 5%;
+}
+
+#result {
+  display: none;
+}
+
+#result p {
+  line-height: 1.5;
+}
+
+#particles-js {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+  background-color: #121212; /* Matches dark background */
+}
+
+@media only screen and (max-width: 1024px) {
+  #controls {
+    width: 60%;
+    margin: 100px 20%;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  body {
+    font-size: 16px;
+  }
+
+  #controls {
+    width: 70%;
+    margin: 100px 15%;
+  }
+
+  select {
+    font-size: 0.9rem;
+  }
+}
+
+@media only screen and (max-width: 400px) {
+  body {
+    font-size: 12px;
+  }
+
+  #controls {
+    width: 80%;
+    margin: 100px 10%;
+  }
+}
