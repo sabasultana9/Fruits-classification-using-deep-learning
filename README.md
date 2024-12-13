@@ -37,7 +37,7 @@ Model Architecture
 Installation
 	1.	Clone this repository:
 
-git clone https://github.com/sabasultana9/Fruits-classification-using-deep-learning/tree/main.git
+git clone https://github.com/sabasultana9/Fruits-classification-using-deep-learning.git
 cd fruit-classification
 
 
